@@ -1,0 +1,22 @@
+{
+  "name": "pmill/rabbit-rabbit",
+  "description": "A PHP controller for rule-based rabbitmq consumer management",
+  "keywords": ["php", "rabbitmq", "rules", "management", "api"],
+  "homepage": "https://github.com/pmill/rabbit-rabbit",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "pmill",
+      "email": "dev.pmill@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "guzzlehttp/guzzle": "~6.0",
+    "php-http/guzzle6-adapter": "^1.1",
+    "richardfullmer/rabbitmq-management-api": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {"pmill\\RabbitRabbit\\": "src/"}
+  }
+}
