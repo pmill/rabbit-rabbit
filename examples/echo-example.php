@@ -26,14 +26,14 @@ class EchoRule extends AbstractRule
 }
 
 $config = new RabbitConfig([
-    'baseUrl' => 'localhost:15673',
+    'baseUrl' => 'localhost:15672',
     'username' => 'guest',
     'password' => 'guest',
 ]);
 
 $manager = new ConsumerManager($config);
-$vhostName = '/nw5';
-$queueName = 'nw5';
+$vhostName = '/';
+$queueName = 'messages';
 
 $manager->addRule(
     new EchoRule($vhostName, $queueName, '-> Your queue is empty'),
