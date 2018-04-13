@@ -20,7 +20,7 @@ curl -sS https://getcomposer.org/installer | php
 Next, run the Composer command to install the latest version:
 
 ```bash
-composer require pmill/rabbut-rabbit
+composer require pmill/rabbit-rabbit
 ```
 
 # Usage
