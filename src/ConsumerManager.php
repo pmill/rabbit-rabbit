@@ -16,7 +16,7 @@ class ConsumerManager
     /**
      * @var array
      */
-    protected $rules;
+    protected $rules = [];
 
     /**
      * ConsumerManager constructor.

@@ -56,6 +56,4 @@ abstract class AbstractRule implements RuleInterface
     {
         $this->queueName = $queueName;
     }
-
-
 }

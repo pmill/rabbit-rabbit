@@ -24,6 +24,6 @@ class CountEquals implements ConditionInterface
      */
     public function shouldRun($value)
     {
-        return $this->equals === $value;
+        return $this->equals === (int)$value;
     }
 }

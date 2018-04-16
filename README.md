@@ -35,6 +35,10 @@ There are example usage scripts in the `examples/` folder. The following integra
 
 # Version History
 
+0.1.1 (16/04/2018)
+
+*   Added unit tests
+
 0.1.0 (12/04/2018)
 
 *   First public release of rabbit-rabbit

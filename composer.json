@@ -14,9 +14,16 @@
     "php": ">=7.1.0",
     "guzzlehttp/guzzle": "~6.0",
     "php-http/guzzle6-adapter": "^1.1",
-    "richardfullmer/rabbitmq-management-api": "^2.0"
+    "richardfullmer/rabbitmq-management-api": "^2.0",
+    "mockery/mockery": "^1.0"
   },
   "autoload": {
     "psr-4": {"pmill\\RabbitRabbit\\": "src/"}
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.1"
+  },
+  "autoload-dev": {
+    "psr-4": {"Tests\\Unit\\": "tests/unit/"}
   }
 }
