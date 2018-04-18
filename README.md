@@ -33,6 +33,7 @@ There are example usage scripts in the `examples/` folder. The following integra
 |------------------------------------------|-----------------------------------------|
 | Amazon ECS                               | [https://github.com/pmill/rabbit-rabbit-ecs](https://github.com/pmill/rabbit-rabbit-ecs)
 | Slack                                    | [https://github.com/pmill/rabbit-rabbit-slack](https://github.com/pmill/rabbit-rabbit-slack)
+| StatsD                                   | [https://github.com/pmill/rabbit-rabbit-statsd](https://github.com/pmill/rabbit-rabbit-statsd)
 
 
 # Version History
