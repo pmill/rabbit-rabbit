@@ -1,5 +1,7 @@
 # pmill/rabbit-rabbit
 
+[![Build Status](https://scrutinizer-ci.com/g/pmill/rabbit-rabbit/badges/build.png?b=master)](https://scrutinizer-ci.com/g/pmill/rabbit-rabbit/build-status/master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/pmill/rabbit-rabbit/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/pmill/rabbit-rabbit/?branch=master) [![Code Coverage](https://scrutinizer-ci.com/g/pmill/rabbit-rabbit/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/pmill/rabbit-rabbit/?branch=master)
+
 ## Introduction
 
 This library allows you to execute commands when RabbitMQ queues message counts match conditions.
